@@ -379,6 +379,15 @@
             </modules>
         </profile>
         <profile>
+            <id>appsscript-client</id>
+            <activation>
+                <property>
+                    <name>env</name>
+                    <value>appsscript</value>
+                </property>
+            </activation>
+        </profile>
+        <profile>
             <id>scala-client</id>
             <activation>
                 <property>
